@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0FF5A221BB5E7BC00BCE5B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FF5A211BB5E7BC00BCE5B7 /* AppDelegate.swift */; };
+		D0FF5A241BB5E7BC00BCE5B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FF5A231BB5E7BC00BCE5B7 /* ViewController.swift */; };
+		D0FF5A271BB5E7BC00BCE5B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FF5A251BB5E7BC00BCE5B7 /* Main.storyboard */; };
+		D0FF5A291BB5E7BC00BCE5B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0FF5A281BB5E7BC00BCE5B7 /* Assets.xcassets */; };
+		D0FF5A2C1BB5E7BC00BCE5B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FF5A2A1BB5E7BC00BCE5B7 /* LaunchScreen.storyboard */; };
+		D0FF5A371BB5E7BD00BCE5B7 /* Zappos_iOS_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FF5A361BB5E7BD00BCE5B7 /* Zappos_iOS_ChallengeTests.swift */; };
+		D0FF5A421BB5E7BD00BCE5B7 /* Zappos_iOS_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FF5A411BB5E7BD00BCE5B7 /* Zappos_iOS_ChallengeUITests.swift */; };
+		D0FF5A651BB632CB00BCE5B7 /* ComicURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FF5A641BB632CB00BCE5B7 /* ComicURLs.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0FF5A331BB5E7BD00BCE5B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0FF5A161BB5E7BC00BCE5B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0FF5A1D1BB5E7BC00BCE5B7;
+			remoteInfo = "Zappos iOS Challenge";
+		};
+		D0FF5A3E1BB5E7BD00BCE5B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0FF5A161BB5E7BC00BCE5B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0FF5A1D1BB5E7BC00BCE5B7;
+			remoteInfo = "Zappos iOS Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0FF5A1E1BB5E7BC00BCE5B7 /* Zappos iOS Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zappos iOS Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FF5A211BB5E7BC00BCE5B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0FF5A231BB5E7BC00BCE5B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0FF5A261BB5E7BC00BCE5B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0FF5A281BB5E7BC00BCE5B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0FF5A2B1BB5E7BC00BCE5B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0FF5A2D1BB5E7BC00BCE5B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0FF5A321BB5E7BD00BCE5B7 /* Zappos iOS ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zappos iOS ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FF5A361BB5E7BD00BCE5B7 /* Zappos_iOS_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zappos_iOS_ChallengeTests.swift; sourceTree = "<group>"; };
+		D0FF5A381BB5E7BD00BCE5B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0FF5A3D1BB5E7BD00BCE5B7 /* Zappos iOS ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zappos iOS ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FF5A411BB5E7BD00BCE5B7 /* Zappos_iOS_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zappos_iOS_ChallengeUITests.swift; sourceTree = "<group>"; };
+		D0FF5A431BB5E7BD00BCE5B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0FF5A4F1BB616D100BCE5B7 /* Zappos iOS Challenge-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zappos iOS Challenge-Bridging-Header.h"; sourceTree = "<group>"; };
+		D0FF5A641BB632CB00BCE5B7 /* ComicURLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComicURLs.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0FF5A1B1BB5E7BC00BCE5B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FF5A2F1BB5E7BD00BCE5B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FF5A3A1BB5E7BD00BCE5B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0FF5A151BB5E7BC00BCE5B7 = {
+			isa = PBXGroup;
+			children = (
+				D0FF5A201BB5E7BC00BCE5B7 /* Zappos iOS Challenge */,
+				D0FF5A351BB5E7BD00BCE5B7 /* Zappos iOS ChallengeTests */,
+				D0FF5A401BB5E7BD00BCE5B7 /* Zappos iOS ChallengeUITests */,
+				D0FF5A1F1BB5E7BC00BCE5B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0FF5A1F1BB5E7BC00BCE5B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0FF5A1E1BB5E7BC00BCE5B7 /* Zappos iOS Challenge.app */,
+				D0FF5A321BB5E7BD00BCE5B7 /* Zappos iOS ChallengeTests.xctest */,
+				D0FF5A3D1BB5E7BD00BCE5B7 /* Zappos iOS ChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0FF5A201BB5E7BC00BCE5B7 /* Zappos iOS Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				D0FF5A211BB5E7BC00BCE5B7 /* AppDelegate.swift */,
+				D0FF5A231BB5E7BC00BCE5B7 /* ViewController.swift */,
+				D0FF5A251BB5E7BC00BCE5B7 /* Main.storyboard */,
+				D0FF5A281BB5E7BC00BCE5B7 /* Assets.xcassets */,
+				D0FF5A2A1BB5E7BC00BCE5B7 /* LaunchScreen.storyboard */,
+				D0FF5A2D1BB5E7BC00BCE5B7 /* Info.plist */,
+				D0FF5A4F1BB616D100BCE5B7 /* Zappos iOS Challenge-Bridging-Header.h */,
+				D0FF5A641BB632CB00BCE5B7 /* ComicURLs.swift */,
+			);
+			path = "Zappos iOS Challenge";
+			sourceTree = "<group>";
+		};
+		D0FF5A351BB5E7BD00BCE5B7 /* Zappos iOS ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0FF5A361BB5E7BD00BCE5B7 /* Zappos_iOS_ChallengeTests.swift */,
+				D0FF5A381BB5E7BD00BCE5B7 /* Info.plist */,
+			);
+			path = "Zappos iOS ChallengeTests";
+			sourceTree = "<group>";
+		};
+		D0FF5A401BB5E7BD00BCE5B7 /* Zappos iOS ChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0FF5A411BB5E7BD00BCE5B7 /* Zappos_iOS_ChallengeUITests.swift */,
+				D0FF5A431BB5E7BD00BCE5B7 /* Info.plist */,
+			);
+			path = "Zappos iOS ChallengeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0FF5A1D1BB5E7BC00BCE5B7 /* Zappos iOS Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0FF5A461BB5E7BD00BCE5B7 /* Build configuration list for PBXNativeTarget "Zappos iOS Challenge" */;
+			buildPhases = (
+				D0FF5A1A1BB5E7BC00BCE5B7 /* Sources */,
+				D0FF5A1B1BB5E7BC00BCE5B7 /* Frameworks */,
+				D0FF5A1C1BB5E7BC00BCE5B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zappos iOS Challenge";
+			productName = "Zappos iOS Challenge";
+			productReference = D0FF5A1E1BB5E7BC00BCE5B7 /* Zappos iOS Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0FF5A311BB5E7BD00BCE5B7 /* Zappos iOS ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0FF5A491BB5E7BD00BCE5B7 /* Build configuration list for PBXNativeTarget "Zappos iOS ChallengeTests" */;
+			buildPhases = (
+				D0FF5A2E1BB5E7BD00BCE5B7 /* Sources */,
+				D0FF5A2F1BB5E7BD00BCE5B7 /* Frameworks */,
+				D0FF5A301BB5E7BD00BCE5B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0FF5A341BB5E7BD00BCE5B7 /* PBXTargetDependency */,
+			);
+			name = "Zappos iOS ChallengeTests";
+			productName = "Zappos iOS ChallengeTests";
+			productReference = D0FF5A321BB5E7BD00BCE5B7 /* Zappos iOS ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0FF5A3C1BB5E7BD00BCE5B7 /* Zappos iOS ChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0FF5A4C1BB5E7BD00BCE5B7 /* Build configuration list for PBXNativeTarget "Zappos iOS ChallengeUITests" */;
+			buildPhases = (
+				D0FF5A391BB5E7BD00BCE5B7 /* Sources */,
+				D0FF5A3A1BB5E7BD00BCE5B7 /* Frameworks */,
+				D0FF5A3B1BB5E7BD00BCE5B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0FF5A3F1BB5E7BD00BCE5B7 /* PBXTargetDependency */,
+			);
+			name = "Zappos iOS ChallengeUITests";
+			productName = "Zappos iOS ChallengeUITests";
+			productReference = D0FF5A3D1BB5E7BD00BCE5B7 /* Zappos iOS ChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0FF5A161BB5E7BC00BCE5B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = CCEW;
+				TargetAttributes = {
+					D0FF5A1D1BB5E7BC00BCE5B7 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					D0FF5A311BB5E7BD00BCE5B7 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D0FF5A1D1BB5E7BC00BCE5B7;
+					};
+					D0FF5A3C1BB5E7BD00BCE5B7 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D0FF5A1D1BB5E7BC00BCE5B7;
+					};
+				};
+			};
+			buildConfigurationList = D0FF5A191BB5E7BC00BCE5B7 /* Build configuration list for PBXProject "Zappos iOS Challenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0FF5A151BB5E7BC00BCE5B7;
+			productRefGroup = D0FF5A1F1BB5E7BC00BCE5B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0FF5A1D1BB5E7BC00BCE5B7 /* Zappos iOS Challenge */,
+				D0FF5A311BB5E7BD00BCE5B7 /* Zappos iOS ChallengeTests */,
+				D0FF5A3C1BB5E7BD00BCE5B7 /* Zappos iOS ChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0FF5A1C1BB5E7BC00BCE5B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FF5A2C1BB5E7BC00BCE5B7 /* LaunchScreen.storyboard in Resources */,
+				D0FF5A291BB5E7BC00BCE5B7 /* Assets.xcassets in Resources */,
+				D0FF5A271BB5E7BC00BCE5B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FF5A301BB5E7BD00BCE5B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FF5A3B1BB5E7BD00BCE5B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0FF5A1A1BB5E7BC00BCE5B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FF5A651BB632CB00BCE5B7 /* ComicURLs.swift in Sources */,
+				D0FF5A241BB5E7BC00BCE5B7 /* ViewController.swift in Sources */,
+				D0FF5A221BB5E7BC00BCE5B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FF5A2E1BB5E7BD00BCE5B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FF5A371BB5E7BD00BCE5B7 /* Zappos_iOS_ChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FF5A391BB5E7BD00BCE5B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FF5A421BB5E7BD00BCE5B7 /* Zappos_iOS_ChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0FF5A341BB5E7BD00BCE5B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0FF5A1D1BB5E7BC00BCE5B7 /* Zappos iOS Challenge */;
+			targetProxy = D0FF5A331BB5E7BD00BCE5B7 /* PBXContainerItemProxy */;
+		};
+		D0FF5A3F1BB5E7BD00BCE5B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0FF5A1D1BB5E7BC00BCE5B7 /* Zappos iOS Challenge */;
+			targetProxy = D0FF5A3E1BB5E7BD00BCE5B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0FF5A251BB5E7BC00BCE5B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0FF5A261BB5E7BC00BCE5B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0FF5A2A1BB5E7BC00BCE5B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0FF5A2B1BB5E7BC00BCE5B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0FF5A441BB5E7BD00BCE5B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0FF5A451BB5E7BD00BCE5B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0FF5A471BB5E7BD00BCE5B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Zappos iOS Challenge/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ccew.Zappos-iOS-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Zappos iOS Challenge/Zappos iOS Challenge-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0FF5A481BB5E7BD00BCE5B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Zappos iOS Challenge/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ccew.Zappos-iOS-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Zappos iOS Challenge/Zappos iOS Challenge-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		D0FF5A4A1BB5E7BD00BCE5B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Zappos iOS ChallengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ccew.Zappos-iOS-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zappos iOS Challenge.app/Zappos iOS Challenge";
+			};
+			name = Debug;
+		};
+		D0FF5A4B1BB5E7BD00BCE5B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Zappos iOS ChallengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ccew.Zappos-iOS-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zappos iOS Challenge.app/Zappos iOS Challenge";
+			};
+			name = Release;
+		};
+		D0FF5A4D1BB5E7BD00BCE5B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Zappos iOS ChallengeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ccew.Zappos-iOS-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Zappos iOS Challenge";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D0FF5A4E1BB5E7BD00BCE5B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Zappos iOS ChallengeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ccew.Zappos-iOS-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Zappos iOS Challenge";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0FF5A191BB5E7BC00BCE5B7 /* Build configuration list for PBXProject "Zappos iOS Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FF5A441BB5E7BD00BCE5B7 /* Debug */,
+				D0FF5A451BB5E7BD00BCE5B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0FF5A461BB5E7BD00BCE5B7 /* Build configuration list for PBXNativeTarget "Zappos iOS Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FF5A471BB5E7BD00BCE5B7 /* Debug */,
+				D0FF5A481BB5E7BD00BCE5B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0FF5A491BB5E7BD00BCE5B7 /* Build configuration list for PBXNativeTarget "Zappos iOS ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FF5A4A1BB5E7BD00BCE5B7 /* Debug */,
+				D0FF5A4B1BB5E7BD00BCE5B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0FF5A4C1BB5E7BD00BCE5B7 /* Build configuration list for PBXNativeTarget "Zappos iOS ChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FF5A4D1BB5E7BD00BCE5B7 /* Debug */,
+				D0FF5A4E1BB5E7BD00BCE5B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0FF5A161BB5E7BC00BCE5B7 /* Project object */;
+}

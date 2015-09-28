@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Zappos_iOS_Challenge" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E55-01-CRQ">
+                                <rect key="frame" x="543" y="530" width="50" height="50"/>
+                                <state key="normal" image="Forward"/>
+                                <connections>
+                                    <action selector="showNextComic:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OmB-3k-XZD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcb-5Z-MAE">
+                                <rect key="frame" x="7" y="530" width="50" height="50"/>
+                                <state key="normal" image="Backward"/>
+                                <connections>
+                                    <action selector="showPreviousComic:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lld-rR-tYZ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="xkcd Comics" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e6B-gi-6Wm">
+                                <rect key="frame" x="0.0" y="30" width="600" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="QO2-hh-B7A"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Q67-NM-uWN">
+                                <rect key="frame" x="7" y="104" width="586" height="427"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="e6B-gi-6Wm" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="9RB-Ql-ots"/>
+                            <constraint firstItem="Q67-NM-uWN" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="84" id="9cL-oU-f18"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="bcb-5Z-MAE" secondAttribute="bottom" constant="20" id="ATq-gy-Dra"/>
+                            <constraint firstItem="Q67-NM-uWN" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" constant="-69" id="H2a-rg-qdk"/>
+                            <constraint firstAttribute="trailing" secondItem="e6B-gi-6Wm" secondAttribute="trailing" id="Hh3-BA-K4h"/>
+                            <constraint firstItem="bcb-5Z-MAE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-13" id="K2N-cT-lFE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="E55-01-CRQ" secondAttribute="trailing" constant="-13" id="Lz2-p3-31r"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="e6B-gi-6Wm" secondAttribute="trailing" constant="-20" id="Vlm-QK-mtK"/>
+                            <constraint firstItem="e6B-gi-6Wm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="eMW-HR-tde"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="E55-01-CRQ" secondAttribute="bottom" constant="20" id="ipb-oh-Wv2"/>
+                            <constraint firstItem="e6B-gi-6Wm" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="30" id="msS-ci-qzT"/>
+                            <constraint firstItem="e6B-gi-6Wm" firstAttribute="leading" secondItem="Q67-NM-uWN" secondAttribute="leading" constant="-7" id="q80-W6-jc4"/>
+                            <constraint firstItem="e6B-gi-6Wm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="sRw-kr-sar"/>
+                            <constraint firstItem="e6B-gi-6Wm" firstAttribute="trailing" secondItem="Q67-NM-uWN" secondAttribute="trailing" constant="7" id="wan-o7-VIE"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="9RB-Ql-ots"/>
+                                <exclude reference="Vlm-QK-mtK"/>
+                                <exclude reference="eMW-HR-tde"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="comicTitle" destination="e6B-gi-6Wm" id="Tjo-hz-aHo"/>
+                        <outlet property="mainImageView" destination="Q67-NM-uWN" id="Umi-HO-8fE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="349"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Backward" width="50" height="50"/>
+        <image name="Forward" width="50" height="50"/>
+    </resources>
+</document>
