@@ -14,7 +14,6 @@
 		D0FF5A2C1BB5E7BC00BCE5B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FF5A2A1BB5E7BC00BCE5B7 /* LaunchScreen.storyboard */; };
 		D0FF5A371BB5E7BD00BCE5B7 /* Zappos_iOS_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FF5A361BB5E7BD00BCE5B7 /* Zappos_iOS_ChallengeTests.swift */; };
 		D0FF5A421BB5E7BD00BCE5B7 /* Zappos_iOS_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FF5A411BB5E7BD00BCE5B7 /* Zappos_iOS_ChallengeUITests.swift */; };
-		D0FF5A651BB632CB00BCE5B7 /* ComicURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FF5A641BB632CB00BCE5B7 /* ComicURLs.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +48,6 @@
 		D0FF5A411BB5E7BD00BCE5B7 /* Zappos_iOS_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zappos_iOS_ChallengeUITests.swift; sourceTree = "<group>"; };
 		D0FF5A431BB5E7BD00BCE5B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0FF5A4F1BB616D100BCE5B7 /* Zappos iOS Challenge-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zappos iOS Challenge-Bridging-Header.h"; sourceTree = "<group>"; };
-		D0FF5A641BB632CB00BCE5B7 /* ComicURLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComicURLs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +105,6 @@
 				D0FF5A2A1BB5E7BC00BCE5B7 /* LaunchScreen.storyboard */,
 				D0FF5A2D1BB5E7BC00BCE5B7 /* Info.plist */,
 				D0FF5A4F1BB616D100BCE5B7 /* Zappos iOS Challenge-Bridging-Header.h */,
-				D0FF5A641BB632CB00BCE5B7 /* ComicURLs.swift */,
 			);
 			path = "Zappos iOS Challenge";
 			sourceTree = "<group>";
@@ -261,7 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0FF5A651BB632CB00BCE5B7 /* ComicURLs.swift in Sources */,
 				D0FF5A241BB5E7BC00BCE5B7 /* ViewController.swift in Sources */,
 				D0FF5A221BB5E7BC00BCE5B7 /* AppDelegate.swift in Sources */,
 			);
@@ -495,6 +491,7 @@
 				D0FF5A481BB5E7BD00BCE5B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0FF5A491BB5E7BD00BCE5B7 /* Build configuration list for PBXNativeTarget "Zappos iOS ChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +500,7 @@
 				D0FF5A4B1BB5E7BD00BCE5B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0FF5A4C1BB5E7BD00BCE5B7 /* Build configuration list for PBXNativeTarget "Zappos iOS ChallengeUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +509,7 @@
 				D0FF5A4E1BB5E7BD00BCE5B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
