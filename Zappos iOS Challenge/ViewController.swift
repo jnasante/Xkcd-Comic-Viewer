@@ -12,14 +12,14 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var comicTitle: UILabel!
     @IBOutlet weak var mainImageView: UIImageView!
-    var currentIndex : NSInteger = 0
+    
     let hostUrl = "http://xkcd.com/"
     let jsonParameter = "/info.0.json"
     var currentComicURL = "http://xkcd.com/info.0.json"
     var comicURL : String = "http://xkcd.com/1/info.0.json"
     
     var currentComicNumber = 0
-    var comicNumber : NSInteger = 0
+    var comicNumber : Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,7 +49,7 @@ class ViewController: UIViewController {
     }
     
     // MARK: Networking
-    func getComic(currentComic : NSInteger) {
+    func getComic(currentComic : Int) {
         
         comicURL = "\(hostUrl)\(comicNumber)\(jsonParameter)"
         let url = currentComic == 0 ? currentComicURL : comicURL
@@ -59,8 +59,10 @@ class ViewController: UIViewController {
             getDataFromUrl(comicURL, completion: { (data) -> Void in
                 
                 if let json: NSDictionary = try! NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers) as? NSDictionary {
+                    
+                    // Get the number of the latest comic
                     if currentComic == 0 {
-                        if let maximumComicNumber = json["num"] as? NSInteger {
+                        if let maximumComicNumber = json["num"] as? Int {
                             self.currentComicNumber = maximumComicNumber
                             self.comicNumber = maximumComicNumber
                         }
