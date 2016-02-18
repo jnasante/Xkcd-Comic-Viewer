@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         // Show first comic
         //getNextComic()
         
-        getJSONFromUrl(comicNumber)
+        getComic(comicNumber)
 
     }
     
@@ -49,12 +49,14 @@ class ViewController: UIViewController {
     }
     
     // MARK: Networking
-    func getJSONFromUrl(currentComic : NSInteger) {
+    func getComic(currentComic : NSInteger) {
         
         comicURL = "\(hostUrl)\(comicNumber)\(jsonParameter)"
         let url = currentComic == 0 ? currentComicURL : comicURL
+        
         if let comicURL = NSURL(string: url) {
-            getJSONFromUrl(comicURL, completion: { (data) -> Void in
+            // Get data from the URL
+            getDataFromUrl(comicURL, completion: { (data) -> Void in
                 
                 if let json: NSDictionary = try! NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers) as? NSDictionary {
                     if currentComic == 0 {
@@ -64,11 +66,13 @@ class ViewController: UIViewController {
                         }
                     }
                     
-                    if let title = json["safe_title"] as? String {
+                    // Set comic title
+                   if let title = json["safe_title"] as? String {
                         self.setComicTitleTextView(title)
                     }
                     
-                    if let imageURL = json["img"] as? String {
+                    // Set image (retrieved from image URL)
+                   if let imageURL = json["img"] as? String {
                         NSLog("%@", imageURL)
                         self.downloadImage(NSURL(string: imageURL)!)
                     }
@@ -81,20 +85,14 @@ class ViewController: UIViewController {
     
     func getNextComic() {
         comicNumber = (comicNumber+1) % currentComicNumber
-        getJSONFromUrl(comicNumber)
+        getComic(comicNumber)
     }
     
     func getPreviousComic() {
         comicNumber = abs(comicNumber - 1) % currentComicNumber
-        getJSONFromUrl(comicNumber)
+        getComic(comicNumber)
     }
     
-    func getJSONFromUrl(urL:NSURL, completion: ((data: NSData?) -> Void)) {
-        NSURLSession.sharedSession().dataTaskWithURL(urL) { (data, response, error) in
-            completion(data: data)
-            }.resume()
-    }
-
     func getDataFromUrl(urL:NSURL, completion: ((data: NSData?) -> Void)) {
         NSURLSession.sharedSession().dataTaskWithURL(urL) { (data, response, error) in
             completion(data: data)

@@ -45,54 +45,6 @@
             timestampString = "465090557.591483"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "95"
-            endingLineNumber = "95"
-            landmarkName = "getJSONFromUrl(_:completion:)"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Zappos_iOS_Challenge.ViewController.getJSONFromUrl (Zappos_iOS_Challenge.ViewController)(ObjectiveC.NSURL, completion : (data : Swift.Optional&lt;ObjectiveC.NSData&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "Zappos iOS Challenge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/josephnasante/Documents/Applications/Internships/Summer%202016/Zappos%20iOS%20Challenge/Zappos%20iOS%20Challenge/ViewController.swift"
-                  timestampString = "465089851.592894"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "93"
-                  endingLineNumber = "93"
-                  offsetFromSymbolStart = "251">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Zappos_iOS_Challenge.ViewController.(getJSONFromUrl (Zappos_iOS_Challenge.ViewController) -&gt; (ObjectiveC.NSURL, completion : (data : Swift.Optional&lt;ObjectiveC.NSData&gt;) -&gt; ()) -&gt; ()).(closure #1)"
-                  moduleName = "Zappos iOS Challenge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/josephnasante/Documents/Applications/Internships/Summer%202016/Zappos%20iOS%20Challenge/Zappos%20iOS%20Challenge/ViewController.swift"
-                  timestampString = "465089851.593141"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "93"
-                  endingLineNumber = "93"
-                  offsetFromSymbolStart = "75">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Zappos iOS Challenge/ViewController.swift"
-            timestampString = "465090557.591483"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
             startingLineNumber = "59"
             endingLineNumber = "59"
             landmarkName = "getJSONFromUrl(_:)"
